@@ -1,0 +1,170 @@
+*{padding:0px;
+    margin:0px;
+  box-sizing: border-box;
+}
+.topnav{
+width: 100%;
+/* height: 100px; */
+background:rgb(3, 73, 13);
+/* padding: 15px 10px 15px 50px;  */
+display:flex;
+box-shadow:0px 10px 20px yellowgreen;
+/* position:fixed; */
+z-index: 5;
+}
+.logo{
+    width: 10%;
+    height:50px;
+    /* background:whitesmoke; */
+    text-align:center;
+    padding: 10px;
+}
+.navbar-right{
+    height: 70px;
+    width: 90%;
+    overflow:hidden;
+}
+.topnav a{
+    color: white;
+    padding:20px;
+    font-size: larger;
+    /* background:green; */
+    float:right;
+    text-decoration: none;
+    height:100%;
+}
+.topnav a:hover{
+
+    /* background: rgb(145, 134, 134); */
+    color:greenyellow;
+    text-decoration:underline;
+}
+.home-container{
+    height: 95vh;
+     background:#27460456; 
+     /* background-image: url("./Image/Img\ tour.jpg"); */
+     background-size: cover;
+     /* position:fixed; */
+     font-size: 40px;
+     padding:60px;
+     z-index: -2;
+    }
+    
+    body{
+        background:url("./Image/Img\ tour.jpg");
+        background-size: cover;
+        width: 100%;
+
+        background-attachment:fixed;
+    }
+.home-container h1{
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+     font-size: 40px;
+}
+.qoute-div {
+    height:380px;
+    width: 358px;
+    background:rgba(255, 255, 255, 0.897);
+    /* float: right; */
+    position: absolute;
+    left:970px;
+    top:200px;
+    border-radius: 10px;
+    box-shadow:rgba(172, 255, 47, 0.61) 0px 0px 0px 10px 2px;
+    /* margin:30px; */
+    padding: 20px;
+}
+.qoute-div p{
+    margin-top:15px;
+    font-size:20px;
+
+}
+button{ 
+    border-radius: 10px;
+   text-align: center;
+  margin-top: 25px; 
+  width: 200px;
+height: 40px;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 15px;
+  padding: 10px;
+  font-weight: 70px;
+  color:#863b06;
+}  
+button a{
+    color: rgb(6, 73, 6);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* .tour.section.container{
+    width:100%;
+    height:150vh;
+    padding-top: 10px 40px 10px 40px;
+    background:white;  */
+/* } */
+
+.book-sort-div{
+    width: 100%;
+    height:80vh;
+    /* background:green; */
+    padding-top: 30px;
+    display: flex;
+    background-color: white;
+
+}
+.book-sort{
+    width: 45%;
+    font-size:20px;
+    /* color:coral; */
+}
+.book-sort h1{
+    padding-left: 20px;
+    color: rgb(16, 97, 16);
+}
+.book-sort label{
+    font-size: 80%;
+    font-weight: bolder;
+    margin-top: 70px;
+    padding-left: 20px;
+}
+select{
+    font-size:20px;
+    width:70%;
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+.book-sort button{
+    float: right;
+    color: rgb(8, 85, 8);
+}
+.signup-form{
+    width:40%;
+    height:70vh;
+    background:whitesmoke;
+    margin:auto;
+    padding:20px;
+    text-align: center;
+}
+.signup-form input{
+    padding:10px;
+    margin: 5px;
+    width:65%;
+    float:right;
+}
+
+.signup-form label{
+    padding: 10px;
+    margin-top: 5px;
+    float:left;
+    font-size: 20px;
+    width:30%;
+    text-align:left;
+}
+
+
