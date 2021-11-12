@@ -32,6 +32,7 @@ z-index: 5;
     float:right;
     text-decoration: none;
     height:100%;
+    /* text-align: center; */
 }
 .topnav a:hover{
 
@@ -148,7 +149,7 @@ select{
     height:70vh;
     background:whitesmoke;
     margin:auto;
-    padding:20px;
+    /* padding:20px; */
     text-align: center;
 }
 .signup-form input{
@@ -166,5 +167,69 @@ select{
     width:30%;
     text-align:left;
 }
+.tourism{
+    background-color:#172202;
+    text-align: center;
+    font-size:25px;
+    color:white;
+    margin-top: 60px;
+    margin: 100px 400px 0px 400px;
+    
 
+}
+.signin-form{
+    width:40%;
+    height:50vh;
+    background: whitesmoke;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
 
+}
+.signin-form input{
+    padding:10px;
+    margin:5px;
+    width:65%;
+    float: right;
+}
+.signin-form label{
+    padding:10px;
+    margin-top: 5px;
+    float: left;
+    font-size: 20px;
+    width:30%;
+    text-align: left;
+}
+.contactus{
+    width:70%; 
+    height:60vh;
+    background:rgba(245, 245, 245, 0.466);
+    margin:auto;
+    padding:30px;
+    text-align:center;
+    font-size: 30px;
+    color:black;
+    /* float:left; */
+}
+.garelly{
+    background: whitesmoke;
+    width:40%;
+    height:60vh;
+    margin:auto;
+}
+.image-cont{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:40px;
+    /* background: rgb(77, 5, 5); */
+    display: flex;
+    padding: 20px;
+}
+/* .image-cont1{
+    font-size: 20px;
+    text-align: center;
+    /* margin-bottom:40px ; */
+    /* display: flex;
+    padding: 20px;
+    margin-bottom:40px ;
+} */
